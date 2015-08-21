@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="jellybean" />
-	<project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="jellybean" />
-	<project name="Rebell/android_device_samsung_wave" path="device/samsung/wave" remote="github" revision="jellybean" />
-	<project name="Rebell/android_vendor_samsung_wave" path="vendor/samsung/wave" remote="github" revision="jellybean" />
-	<project name="Rebell/android_kernel_samsung_wave" path="kernel/samsung/wave" remote="github" revision="jellybean" />
-	<project name="KB-JetDroid/bada-modemril" path="external/bada-modemril" remote="github" revision="jellybean" />
+    <remote name="github" fetch="https://github.com/"/>
+	<project name="autra/android_hardware_samsung" path="hardware/samsung" remote="github" revision="exp_wave" />
+	<project name="autra/android_device_samsung_wave" path="device/samsung/wave" remote="github" revision="exp_wave" />
+	<project name="Badadroid/android_vendor_samsung_wave" path="vendor/samsung/wave" remote="github" revision="cm-11.0" />
+	<project name="Badadroid/android_kernel_samsung_aries" path="kernel/samsung/aries" remote="github" revision="android-4.4" />
+	<project name="Badadroid/android_external_libmocha-ipc" path="external/libmocha-ipc" remote="github" revision="android-4.4" />
 </manifest>
